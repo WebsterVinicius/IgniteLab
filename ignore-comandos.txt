@@ -1,0 +1,22 @@
+npm create vite@latest (cria o projeto com react + typescript)
+npm i (instala as dependencias)
+
+-- pra rodar: npm run dev
+
+npm install -D tailwindcss postcss autoprefixer (instala o tailwindcss, o postcss (gulp) e o autoprefixer (moz, webkit etc)
+
+npx tailwindcss init -p (o "-p" cria o arquivo de configuração do postcss)
+
+npm install --save clsx (pacote css que permite maior customização das classes)
+
+npm install @radix-ui/react-slot (permite o usuario escolher qual tag utilizar - span, p)
+npm install @radix-ui/react-checkbox (traz a biblioteca de checkbox do radix)
+
+npm install phosphor-react (biblioteca de icones)
+
+-- extensões: tailwindcss, postcss, mdx (storybook)
+
+-- UGFS{
+npx sb init --builder @storybook/builder-vite --use-npm (Configura o storybook com o vite)
+npm run storybook (roda o storybook)
+}
