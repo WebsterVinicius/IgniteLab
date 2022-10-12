@@ -19,4 +19,6 @@ npm install phosphor-react (biblioteca de icones)
 -- UGFS{
 npx sb init --builder @storybook/builder-vite --use-npm (Configura o storybook com o vite)
 npm run storybook (roda o storybook)
+npm i @storybook/storybook-deployer --save-dev
+"deploy-storybook": "storybook-to-ghpages" (adicionar script ao package.json -- ps-- rodar o "build-storybook" antes -- ps2-- colocar o storybook-static ao gitignore)
 }
