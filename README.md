@@ -11,4 +11,4 @@ Rocketseat React Project
 - open the local ip which will be displayed in the terminal
 
 
-OBS: project still without backend implementation
+> OBS: project still without backend implementation
